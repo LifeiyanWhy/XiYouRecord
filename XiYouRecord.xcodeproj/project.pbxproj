@@ -14,6 +14,17 @@
 		C4CA53B022A755B20015DF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CA53AE22A755B20015DF51 /* LaunchScreen.storyboard */; };
 		C4CA53BB22A755B20015DF51 /* XiYouRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA53BA22A755B20015DF51 /* XiYouRecordTests.swift */; };
 		C4CA53C622A755B20015DF51 /* XiYouRecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA53C522A755B20015DF51 /* XiYouRecordUITests.swift */; };
+		C4CA53D422A76A340015DF51 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA53D322A76A340015DF51 /* LoginView.swift */; };
+		C4CA53D622A76D790015DF51 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA53D522A76D790015DF51 /* MineViewController.swift */; };
+		C4CA53DA22A76E030015DF51 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA53D922A76E030015DF51 /* HomeViewController.swift */; };
+		C4CA53E022A77C750015DF51 /* mine.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CA53DC22A77C750015DF51 /* mine.png */; };
+		C4CA53E122A77C750015DF51 /* mineSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CA53DD22A77C750015DF51 /* mineSelect.png */; };
+		C4CA53E222A77C750015DF51 /* homeSelcet.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CA53DE22A77C750015DF51 /* homeSelcet.png */; };
+		C4CA53E322A77C750015DF51 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CA53DF22A77C750015DF51 /* home.png */; };
+		C4CA53E722A7C69D0015DF51 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA53E622A7C69D0015DF51 /* File.swift */; };
+		C4CA53ED22A7C9630015DF51 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CA53EC22A7C9630015DF51 /* UIColor+Hex.m */; };
+		C4CA53F022A7D8F50015DF51 /* HomeTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA53EF22A7D8F50015DF51 /* HomeTopView.swift */; };
+		C4CA53F322A800E10015DF51 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA53F222A800E10015DF51 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,20 @@
 		C4CA53C122A755B20015DF51 /* XiYouRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiYouRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CA53C522A755B20015DF51 /* XiYouRecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiYouRecordUITests.swift; sourceTree = "<group>"; };
 		C4CA53C722A755B20015DF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4CA53D322A76A340015DF51 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C4CA53D522A76D790015DF51 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		C4CA53D922A76E030015DF51 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C4CA53DC22A77C750015DF51 /* mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mine.png; path = ../../../../Downloads/mine.png; sourceTree = "<group>"; };
+		C4CA53DD22A77C750015DF51 /* mineSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mineSelect.png; path = ../../../../Downloads/mineSelect.png; sourceTree = "<group>"; };
+		C4CA53DE22A77C750015DF51 /* homeSelcet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homeSelcet.png; path = ../../../../Downloads/homeSelcet.png; sourceTree = "<group>"; };
+		C4CA53DF22A77C750015DF51 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ../../../../Downloads/home.png; sourceTree = "<group>"; };
+		C4CA53E622A7C69D0015DF51 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C4CA53E822A7C8800015DF51 /* XiYouRecord-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XiYouRecord-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4CA53EB22A7C9630015DF51 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		C4CA53EC22A7C9630015DF51 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		C4CA53EF22A7D8F50015DF51 /* HomeTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopView.swift; sourceTree = "<group>"; };
+		C4CA53F122A7E76F0015DF51 /* XiYouRecord.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiYouRecord.pch; sourceTree = "<group>"; };
+		C4CA53F222A800E10015DF51 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +106,8 @@
 				C4CA53B922A755B20015DF51 /* XiYouRecordTests */,
 				C4CA53C422A755B20015DF51 /* XiYouRecordUITests */,
 				C4CA53A322A755AF0015DF51 /* Products */,
+				C4CA53E822A7C8800015DF51 /* XiYouRecord-Bridging-Header.h */,
+				C4CA53F122A7E76F0015DF51 /* XiYouRecord.pch */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +126,17 @@
 			children = (
 				C4CA53A522A755AF0015DF51 /* AppDelegate.swift */,
 				C4CA53A722A755AF0015DF51 /* ViewController.swift */,
+				C4CA53EE22A7CDC90015DF51 /* Login */,
+				C4CA53D822A76DA00015DF51 /* home */,
+				C4CA53D722A76D870015DF51 /* mine */,
+				C4CA53DB22A77C530015DF51 /* image */,
 				C4CA53A922A755AF0015DF51 /* Main.storyboard */,
 				C4CA53AC22A755B20015DF51 /* Assets.xcassets */,
 				C4CA53AE22A755B20015DF51 /* LaunchScreen.storyboard */,
 				C4CA53B122A755B20015DF51 /* Info.plist */,
+				C4CA53E622A7C69D0015DF51 /* File.swift */,
+				C4CA53EB22A7C9630015DF51 /* UIColor+Hex.h */,
+				C4CA53EC22A7C9630015DF51 /* UIColor+Hex.m */,
 			);
 			path = XiYouRecord;
 			sourceTree = "<group>";
@@ -123,6 +157,43 @@
 				C4CA53C722A755B20015DF51 /* Info.plist */,
 			);
 			path = XiYouRecordUITests;
+			sourceTree = "<group>";
+		};
+		C4CA53D722A76D870015DF51 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA53D522A76D790015DF51 /* MineViewController.swift */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		C4CA53D822A76DA00015DF51 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA53D922A76E030015DF51 /* HomeViewController.swift */,
+				C4CA53EF22A7D8F50015DF51 /* HomeTopView.swift */,
+				C4CA53F222A800E10015DF51 /* HomeView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		C4CA53DB22A77C530015DF51 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA53DF22A77C750015DF51 /* home.png */,
+				C4CA53DE22A77C750015DF51 /* homeSelcet.png */,
+				C4CA53DC22A77C750015DF51 /* mine.png */,
+				C4CA53DD22A77C750015DF51 /* mineSelect.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		C4CA53EE22A7CDC90015DF51 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA53D322A76A340015DF51 /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +264,7 @@
 				TargetAttributes = {
 					C4CA53A122A755AF0015DF51 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					C4CA53B522A755B20015DF51 = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,6 +301,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CA53E222A77C750015DF51 /* homeSelcet.png in Resources */,
+				C4CA53E122A77C750015DF51 /* mineSelect.png in Resources */,
+				C4CA53E322A77C750015DF51 /* home.png in Resources */,
+				C4CA53E022A77C750015DF51 /* mine.png in Resources */,
 				C4CA53B022A755B20015DF51 /* LaunchScreen.storyboard in Resources */,
 				C4CA53AD22A755B20015DF51 /* Assets.xcassets in Resources */,
 				C4CA53AB22A755AF0015DF51 /* Main.storyboard in Resources */,
@@ -256,7 +332,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CA53F322A800E10015DF51 /* HomeView.swift in Sources */,
 				C4CA53A822A755AF0015DF51 /* ViewController.swift in Sources */,
+				C4CA53F022A7D8F50015DF51 /* HomeTopView.swift in Sources */,
+				C4CA53E722A7C69D0015DF51 /* File.swift in Sources */,
+				C4CA53D622A76D790015DF51 /* MineViewController.swift in Sources */,
+				C4CA53D422A76A340015DF51 /* LoginView.swift in Sources */,
+				C4CA53ED22A7C9630015DF51 /* UIColor+Hex.m in Sources */,
+				C4CA53DA22A76E030015DF51 /* HomeViewController.swift in Sources */,
 				C4CA53A622A755AF0015DF51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +515,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XiYouRecord.pch";
 				INFOPLIST_FILE = XiYouRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +527,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = learn.XiYouRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XiYouRecord-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,7 +538,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XiYouRecord.pch";
 				INFOPLIST_FILE = XiYouRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +550,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = learn.XiYouRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XiYouRecord-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

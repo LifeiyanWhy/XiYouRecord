@@ -16,6 +16,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let homeViewController: HomeViewController = HomeViewController.init()
+        let homeNavController: UINavigationController = UINavigationController.init(rootViewController: homeViewController)
+        homeNavController.tabBarItem.title = "首页"
+        homeNavController.tabBarItem.image = UIImage.init(named: "home.png")?.withRenderingMode(.alwaysOriginal)
+        homeNavController.tabBarItem.selectedImage = UIImage.init(named: "homeSelcet.png")?.withRenderingMode(.alwaysOriginal)
+        homeNavController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor:UIColor.black], for: UIControl.State.normal)
+        homeNavController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor:UIColor(hexString: "#f68c60")
+            ], for: UIControl.State.selected)
+        
+        
+        let mineViewController: MineViewController = MineViewController.init()
+        let mineNavController: UINavigationController = UINavigationController.init(rootViewController: mineViewController)
+        mineNavController.tabBarItem.title = "我的"
+        mineNavController.tabBarItem.image = UIImage.init(named: "mine.png")?.withRenderingMode(.alwaysOriginal)
+        mineNavController.tabBarItem.selectedImage = UIImage.init(named: "mineSelect.png")?.withRenderingMode(.alwaysOriginal)
+        mineNavController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor:UIColor.black], for: UIControl.State.normal)
+        mineNavController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor:UIColor(hexString: "#f68c60")], for: UIControl.State.selected)
+        
+        let tabBarViewController: UITabBarController = UITabBarController.init()
+        tabBarViewController.viewControllers = [homeNavController, mineNavController]
+        tabBarViewController.selectedViewController = homeNavController
+        tabBarViewController.tabBar.barTintColor = UIColor.white
+        tabBarViewController.tabBar.isTranslucent = false
+        
+        self.window?.rootViewController = tabBarViewController
         return true
     }
 
