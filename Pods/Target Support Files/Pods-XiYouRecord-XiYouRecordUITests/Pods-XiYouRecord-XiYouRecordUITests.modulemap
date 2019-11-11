@@ -1,0 +1,6 @@
+framework module Pods_XiYouRecord_XiYouRecordUITests {
+  umbrella header "Pods-XiYouRecord-XiYouRecordUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
