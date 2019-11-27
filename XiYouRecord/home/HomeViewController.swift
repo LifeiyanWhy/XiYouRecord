@@ -13,6 +13,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        //test
         self.view.backgroundColor = UIColor.white
         self.navigationController?.navigationBar.isHidden = true
         let topView = HomeTopView.init(frame: CGRect(x: (ScreenWidth - 150)/2.0, y: 20, width: 150, height: 44))
